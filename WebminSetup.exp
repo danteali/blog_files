@@ -1,0 +1,34 @@
+#!/usr/bin/expect
+# Source: http://www.thegeekstuff.com/2010/10/expect-examples/
+set timeout 300
+
+spawn "./setup.sh"
+
+expect "Config file directory "
+send "\r"
+
+expect "Log file directory "
+send "\r"
+
+expect "Full path to perl (default /usr/bin/perl):"
+send "\r"
+
+expect "Web server port (default 10000):"
+send "\r"
+
+expect "Login name (default admin):"
+send "\r"
+
+expect "Login password:"
+send "YOURPASSWORD\r"
+
+expect "Password again:"
+send "YOURPASSWORD\r"
+
+expect "Use SSL (y/n):"
+send "n\r"
+
+expect "Start Webmin at boot time (y/n):"
+send "y\r"
+
+interact
