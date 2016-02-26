@@ -8,7 +8,7 @@ I don't want to write out the whole of these scripts in a blog post. Much easier
 
 
 ===========================================
-How to use git (reminder for myself on how to add more stuff to the repo!)
+How to use git (reminder for myself on how to add more stuff to the repo)
 
 cd ~/git-repo/blog-repo/
 
