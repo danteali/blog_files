@@ -2,9 +2,9 @@ Repo to host some files which I'll be linking to from Blogger or my Wordpress bl
 
 Mostly scripts used in NAS and Raspberry Pi configuration.
 
-Blogger can't really be used to host files and I don't want to store much on my Wordpress host. 
+I don't want to store much on my Wordpress host to minimise hosting costs.
 
-I don't want to write out the whole of these scripts in a blog post. Much easier to link here.
+I also don't want to write the entirity of each scripts in a blog post as they are typically too long for that. Much easier to link here.
 
 
 ===========================================
